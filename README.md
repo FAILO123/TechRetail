@@ -2,7 +2,7 @@
 
 Este proyecto implementa una arquitectura escalable y de alta disponibilidad para la plataforma de comercio electrónico **TechRetail**, resolviendo problemas de caídas del sistema y lentitud en campañas de alta demanda.
 
-## 📋 Arquitectura del Sistema
+Arquitectura del Sistema
 La solución utiliza **Docker Swarm** para orquestar los siguientes microservicios:
 * **Frontend:** Servidor Nginx (Escalable a 5 réplicas).
 * **Backend:** Servicio REST en Node.js (2 réplicas).
@@ -10,14 +10,13 @@ La solución utiliza **Docker Swarm** para orquestar los siguientes microservici
 * **Cache:** Redis 7 para optimización de consultas.
 * **Visualizer:** Herramienta de monitoreo gráfico del clúster.
 
-## 🚀 Guía de Despliegue
+Guía de Despliegue
 
 ### Requisitos previos
 - Docker Desktop con Swarm activado (`docker swarm init`).
 - Terminal PowerShell o Bash.
 
-### Pasos para el despliegue
+Pasos para el despliegue
 1. **Clonar el repositorio:**
-   ```bash
-   git clone [URL_DE_TU_REPOSITORIO]
-   cd [NOMBRE_DE_TU_CARPETA]
+   git clone https://github.com/FAILO123/TechRetail
+   
